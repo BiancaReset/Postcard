@@ -1,0 +1,57 @@
+body {
+	background: black;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-body {
+	display: flex;
+}
+.postcard-header {
+	display: flex;
+	padding: 10px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 500px;
+	margin: 0;
+	font-family: cursive;
+}
+
+.body-left p:first-child {
+	margin-top: 0px;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: grey;
+	display: block;
+	margin: 5px;
+}
+
+.postcard-footer {
+	text-align: center;
+	padding: 5px;
+}
+button {
+	background-color: blue;
+	padding: 5px 7px;
+	color: white;
+	border: none;
+}
+button:hover {
+	background-color: grey;
+}
